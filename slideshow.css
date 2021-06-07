@@ -33,6 +33,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s ease-in-out;
+}
+
+.box1 img:hover {
+    transform: rotate(-20deg) skew(5deg) scale(1.5);
 }
 
 .btn {
@@ -99,6 +104,11 @@
 .column img {
     width: 70px;
     height: 70px;
+    transition: .5s ease-in-out;
+}
+
+.column img:hover {
+    transform: rotate(-20deg) skew(5deg);
 }
 
 .cursor {
